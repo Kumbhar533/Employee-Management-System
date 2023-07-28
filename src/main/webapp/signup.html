@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/sign_up.css">
+</head>
+<body>
+
+<div class="signup-box">
+		<h2>Sign Up</h2>
+		<form action="sign_up_handler" method="post">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="name" placeholder="Enter username">
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter email">
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" placeholder="Enter password">
+
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password">
+
+			<input type="submit" value="Sign Up">
+			
+			<table>
+        <tr>
+          <td>
+            Already a member ?
+          </td>
+          <td>
+            <a href="login.html"> Log in</a>
+          </td>
+        </tr>
+      </table>
+			
+		</form>
+	
+  </div>
+</body>
+</html>

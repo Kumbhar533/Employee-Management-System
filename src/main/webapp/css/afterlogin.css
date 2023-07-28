@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+h3
+{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-shadow: 5px 5px 5px rgb(10, 157, 183);
+   color: beige;
+}
+#aa
+{
+   font-family: cursive;
+   border: 1px solid grey;
+   width: 550px;
+   text-shadow: 5px 5px 5px rgb(224, 161, 161);
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 10px 10px 10px;
+
+}
+body
+{
+   background-image: url("../css/images/after_login.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+h2
+{
+   font-family: cursive;
+   font-weight: 800;
+   
+   
+}
+#ht
+{
+   color: white;
+}
+#ht1
+{
+   
+   border: 1px solid;
+   
+   height: 20px;
+   width: 55px;
+  background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+   
+}
+
